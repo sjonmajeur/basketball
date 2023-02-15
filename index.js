@@ -1,5 +1,6 @@
 let scoreHome = document.getElementById("score-home") 
 let scoreGuest = document.getElementById("score-guest")
+
 let countHome = 0
 let countGuest = 0
 
@@ -32,7 +33,7 @@ function guest3() {
     countGuest += 3
     scoreGuest.innerText = countGuest
 }
-// let scoreGuest = document.getElementById("score-guest")
+
 
 function reset() {
     countGuest = 0
@@ -41,7 +42,3 @@ function reset() {
     scoreGuest.textContent = countHome
 }
 
-// function home1() {
-//     
-//     scoreHome.textContent = result1
-// }
