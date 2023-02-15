@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: pink;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 400px;
+    height: 250px;
+    background: #1B244A;
+    color: whitesmoke;
+    padding: 30px 30px 100px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 5px solid whitesmoke;
+    
+    
+}
+
+#score-guest, #score-home {
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    background: black;
+    border-radius: 5px;
+}
+
+#btn-home, #btn-guest {
+    margin-top: 30px;
+}
+
+#btn-guest1, #btn-guest2, #btn-guest3, #btn-home1, #btn-home2, #btn-home3  {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: #1B244A;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    padding: 7px 7px;
+    border-radius: 8px;
+    margin: 5px
+}
+
+#btn-guest1:hover, #btn-guest2:hover, #btn-guest3:hover, #btn-home1:hover, #btn-home2:hover, #btn-home3:hover {
+    background: #F94F6D;
+    color: whitesmoke;
+}
+
+#score-home, #score-guest {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #F94F6D;
+    font-size: 80px;
+    font-weight: normal;
+    
+}
+
+#home, #guest {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 10px;
+    font-size: 20px;
+    
+}
+
+#restart {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    background: #1B244A;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    padding: 7px 7px;
+    border-radius: 8px;
+}
+
+#restart:hover {
+    background: #F94F6D;
+    color: whitesmoke;
+}
